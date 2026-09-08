@@ -1,0 +1,23 @@
+.app {
+    min-height: 100vh;
+    padding: 10px;
+
+    background-color: #07101d;
+    color: #f8fafc;
+
+    box-sizing: border-box;
+}
+
+.conteudo {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    gap: 10px;
+
+    margin-top: 10px;
+}
+
+@media (max-width: 950px) {
+    .conteudo {
+        grid-template-columns: 1fr;
+    }
+}
