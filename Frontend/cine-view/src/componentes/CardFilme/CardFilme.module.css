@@ -1,6 +1,4 @@
 .card {
-    min-width: 0;
-
     padding: 7px;
 
     background-color: #0d1726;
@@ -9,8 +7,6 @@
     border-radius: 9px;
 
     overflow: hidden;
-
-    box-sizing: border-box;
 }
 
 .imagem {
@@ -35,6 +31,8 @@
 
     font-size: 14px;
     font-weight: 700;
+
+    font-family: "Poppins", sans-serif;
 }
 
 .genero {
@@ -49,6 +47,8 @@
     color: #f8fafc;
 
     font-size: 10px;
+
+    font-family: "Poppins", sans-serif;
 }
 
 .data {
@@ -57,6 +57,8 @@
     color: #cbd5e1;
 
     font-size: 11px;
+
+    font-family: "Poppins", sans-serif;
 }
 
 .descricao {
@@ -67,4 +69,6 @@
     font-size: 11px;
 
     line-height: 1.6;
+
+    font-family: "Poppins", sans-serif;
 }

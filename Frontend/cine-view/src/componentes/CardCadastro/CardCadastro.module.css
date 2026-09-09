@@ -7,8 +7,6 @@
 
     border: 1px solid #253247;
     border-radius: 9px;
-
-    box-sizing: border-box;
 }
 
 .titulo {
@@ -17,11 +15,12 @@
 
     gap: 10px;
 
-    margin: 0 0 24px 0;
+    margin: 0 0 24px;
 
     color: #f8fafc;
 
     font-size: 20px;
+    font-family: "Poppins", sans-serif;
 }
 
 .formulario {
@@ -43,6 +42,7 @@
 
     font-size: 12px;
     font-weight: 600;
+    font-family: "Poppins", sans-serif;
 }
 
 .campo input,
@@ -62,10 +62,9 @@
     color: #e2e8f0;
 
     font-size: 12px;
+    font-family: "Poppins", sans-serif;
 
     outline: none;
-
-    transition: border-color 0.2s;
 }
 
 .campo input,
@@ -77,8 +76,6 @@
     height: 92px;
 
     resize: none;
-
-    font-family: inherit;
 }
 
 .campo input::placeholder,
@@ -106,8 +103,6 @@
     align-items: center;
     justify-content: center;
 
-    gap: 8px;
-
     border: none;
     border-radius: 5px;
 
@@ -119,21 +114,8 @@
     font-weight: 600;
 
     cursor: pointer;
-
-    transition:
-        background-color 0.2s,
-        transform 0.1s;
-}
-
-.botao span {
-    font-size: 22px;
-    font-weight: 300;
 }
 
 .botao:hover {
     background-color: #dc2626;
-}
-
-.botao:active {
-    transform: scale(0.99);
 }

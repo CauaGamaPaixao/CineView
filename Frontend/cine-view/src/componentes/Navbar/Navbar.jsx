@@ -10,12 +10,6 @@ function Navbar() {
 
             <div className={styles.logoContainer}>
 
-                <img
-                    src={logo}
-                    alt="Logo CineView"
-                    className={styles.logo}
-                />
-
                 <h1 className={styles.nome}>
                     Cine<span>View</span>
                 </h1>
